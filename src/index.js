@@ -14,7 +14,6 @@ class Home extends Component {
 
       <BrowserRouter>
         <div>
-
           <nav>
             <ul>
               <li><NavLink exact to="/">Home</NavLink></li>
@@ -29,9 +28,7 @@ class Home extends Component {
             <Route exact path="/Sleepy" component={Sleepy} />
             <Route exact path="/Guilty" component={Guilty} />
           </Switch>
-
         </div>
-
       </BrowserRouter>
 
     )
